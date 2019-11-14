@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.borderr {
+  border-left: 4px solid #5757ff;
+  border-right: 4px solid #5757ff;
+}
+.activee {
+  color: #5757ff !important;
+}
+.list-group a {
+  color: #898993;
+  font-weight: bold;
+}
+#bckgr {
+  background-image: url(../imgs/aaron-sebastian-bfgEYpS0Znk-unsplash@2x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .borderr {
+    border: none;
+  }
+}
